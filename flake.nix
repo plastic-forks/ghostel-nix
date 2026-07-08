@@ -40,6 +40,7 @@
               patches = lib.optionals final.stdenv.hostPlatform.isDarwin [
                 ./patches/apple-sdk-build.patch
                 ./patches/shareddeps-darwin-sdk.patch
+                ./patches/libtool-step-path.patch
               ];
 
               preBuild = ''

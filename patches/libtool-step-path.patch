@@ -1,0 +1,14 @@
+--- a/vendor/ghostty/src/build/LibtoolStep.zig
++++ b/vendor/ghostty/src/build/LibtoolStep.zig
+@@ -68,9 +68,9 @@
+         b.fmt("ranlib {s} #{d}", .{ step_name, index }),
+     );
+     run_step.addArgs(&.{
+-        "/bin/sh",
++        "sh",
+         "-c",
+-        "/bin/cp \"$1\" \"$2\" && /usr/bin/ranlib \"$2\"",
++        "cp \"$1\" \"$2\" && ranlib \"$2\"",
+         "_",
+     });
+     run_step.addFileArg(source);
