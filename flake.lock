@@ -7,13 +7,12 @@
         "narHash": "sha256-Re7KSXgOb8C6jCsQZousVUD+UZpZnQyxXCyBueFdX3k=",
         "ref": "refs/heads/main",
         "rev": "fccade496050fde96369950ee1d9976cf78fa63b",
-        "shallow": true,
+        "revCount": 700,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/dakra/ghostel"
       },
       "original": {
-        "shallow": true,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/dakra/ghostel"
