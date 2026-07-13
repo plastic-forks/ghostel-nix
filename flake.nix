@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     ghostel-src = {
-      url = "git+https://github.com/dakra/ghostel?submodules=1&shallow=1";
+      url = "git+https://github.com/dakra/ghostel?submodules=1";
       flake = false;
     };
   };
